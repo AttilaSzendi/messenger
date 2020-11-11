@@ -1,0 +1,32 @@
+{
+    "name": "stilldesign/messenger",
+    "description": "chat system",
+    "authors": [
+        {
+            "name": "SzendiAttila",
+            "email": "attila.szendi@stilldesign.hu"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.*",
+        "doctrine/dbal": "^2.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~7.1",
+        "orchestra/testbench": "~3.6.4",
+        "orchestra/database": "~3.6.1",
+        "laravel/homestead": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stilldesign\\Messenger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stilldesign\\Messenger\\Tests\\": "tests/"
+        }
+    }
+}
